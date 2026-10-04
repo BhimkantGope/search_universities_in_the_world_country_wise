@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search colleges of every country!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+
+    <div class="container">
+        <input placeholder="enter country" type="text" for="country-btn">
+        <button class="button" type="button" id="country-btn">Search</button>
+        <button class="button" type="reset" id="country-clear">Clear</button>
+        <div class="list-container">
+            <ul id="list"></ul>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
